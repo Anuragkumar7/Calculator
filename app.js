@@ -32,7 +32,7 @@ function calculate() {
   try {
     let result = eval(expression);
     display.value = result;
-    expression = '';
+    expression = result;
   } catch (error) {
     display.value = 'Error';
   }
